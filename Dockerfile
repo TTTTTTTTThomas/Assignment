@@ -13,9 +13,6 @@ RUN npm install
 # Copy the entire React app source
 COPY guangxin_dai_site/ .
 
-# Set host and port for development server
-ENV HOST=0.0.0.0
-ENV PORT=7775
 
 # Expose port 7775
 EXPOSE 7775
