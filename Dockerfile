@@ -2,7 +2,7 @@
 FROM node:18
 
 # Set the working directory inside the container
-WORKDIR /app/guangxin_dai_site
+WORKDIR /guangxin_dai_site
 
 # Copy package.json and package-lock.json first
 COPY guangxin_dai_site/package*.json ./
