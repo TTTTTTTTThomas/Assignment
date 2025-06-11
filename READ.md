@@ -20,9 +20,9 @@ It runs at [http://localhost:7775](http://localhost:7775).
 Run the following command in the root folder (`Assignment11/`):
 
 ```bash
-    docker build -t guangxin_dai_coding_assignment11 .
+    docker build -t dai_guangxin_coding_assignment11 .
 ```
 ### Step 2: Start docker container
 ```bash
-    docker run -p 7775:3000 --name guangxin_dai_coding_assignment11 guangxin_dai_coding_assignment11
+    docker run -p 7775:3000 --name dai_guangxin_coding_assignment11 dai_guangxin_coding_assignment11
 ```

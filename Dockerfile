@@ -2,16 +2,16 @@
 FROM node:18
 
 # Set the working directory inside the container
-WORKDIR /guangxin_dai_site
+WORKDIR /dai_guangxin_site
 
 # Copy package.json and package-lock.json first
-COPY guangxin_dai_site/package*.json ./
+COPY dai_guangxin_site/package*.json ./
 
 # Install dependencies
 RUN npm install
 
 # Copy the entire React app source
-COPY guangxin_dai_site/ .
+COPY dai_guangxin_site/ .
 
 
 # Expose port 7775
